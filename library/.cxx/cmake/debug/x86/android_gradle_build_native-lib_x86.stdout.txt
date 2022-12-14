@@ -1,0 +1,3 @@
+[1/3] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/src/com_google_android_cameraview_NativeLibrary.cpp.o
+[2/3] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/src/ImageUtil.cpp.o
+[3/3] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\x86\libnative-lib.so

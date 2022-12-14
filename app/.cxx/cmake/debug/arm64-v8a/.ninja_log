@@ -1,0 +1,4 @@
+# ninja log v5
+1	133	0	CMakeFiles/native-lib.dir/src/main/cpp/src/ImageUtil.cpp.o	c2401b97850a5c73
+25	161	0	CMakeFiles/native-lib.dir/src/main/cpp/src/com_example_znx_funtool_NativeLibrary.cpp.o	646d70417a76de4b
+161	247	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	34ec15e005299eec

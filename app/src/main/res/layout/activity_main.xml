@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<android.support.design.widget.NavigationView-->
+        <!--android:id="@+id/navigation_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="start"-->
+        <!--app:headerLayout="@layout/navigator_header"-->
+        <!--app:menu="@menu/navigator_menu"-->
+        <!--/>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/coor_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/statusBarView"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/colorPrimary"></View>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/top_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                android:fitsSystemWindows="true"
+                android:gravity="center_horizontal"
+                android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:layout_scrollFlags="scroll|enterAlways|snap"/>
+
+    </android.support.design.widget.AppBarLayout>
+        </android.support.design.widget.CoordinatorLayout>
+
+    <View
+        android:id="@+id/space_view"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@android:color/white"></View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:id="@+id/button_layout">
+        <Button
+            android:id="@+id/button_pictureScore"
+            android:text='美学评分'
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_select"
+            android:gravity="center"
+            android:textColor="#000000"
+            />
+        <Button
+            android:id="@+id/button_imageCut"
+            android:text='抠图'
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_select"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_toRightOf="@id/button_pictureScore"
+            />
+        <Button
+            android:id="@+id/button_dynamic_score"
+            android:text='实时美学评分'
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_select"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_toRightOf="@id/button_imageCut"
+            />
+    </RelativeLayout>
+
+    <!--</RelativeLayout>-->
+
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/center_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="400dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_below="@id/coor_layout"-->
+        <!--android:background="#ffffff">-->
+
+
+        <!--</android.support.v4.view.ViewPager>-->
+</LinearLayout>

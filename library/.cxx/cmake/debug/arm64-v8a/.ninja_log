@@ -1,0 +1,14 @@
+# ninja log v5
+1	125	0	CMakeFiles/native-lib.dir/src/main/cpp/src/ImageUtil.cpp.o	7ab13404002815f0
+22	147	0	CMakeFiles/native-lib.dir/src/main/cpp/src/com_google_android_cameraview_NativeLibrary.cpp.o	cad485677c9e5f35
+147	385	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	de1a93afdf04a958
+1	128	0	CMakeFiles/native-lib.dir/src/main/cpp/src/com_google_android_cameraview_NativeLibrary.cpp.o	cad485677c9e5f35
+128	213	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	de1a93afdf04a958
+1	134	0	CMakeFiles/native-lib.dir/src/main/cpp/src/com_google_android_cameraview_NativeLibrary.cpp.o	cad485677c9e5f35
+32	155	0	CMakeFiles/native-lib.dir/src/main/cpp/src/ImageUtil.cpp.o	7ab13404002815f0
+155	236	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	de1a93afdf04a958
+1	126	0	CMakeFiles/native-lib.dir/src/main/cpp/src/com_google_android_cameraview_NativeLibrary.cpp.o	cad485677c9e5f35
+26	134	0	CMakeFiles/native-lib.dir/src/main/cpp/src/ImageUtil.cpp.o	7ab13404002815f0
+134	219	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	de1a93afdf04a958
+1	128	0	CMakeFiles/native-lib.dir/src/main/cpp/src/com_google_android_cameraview_NativeLibrary.cpp.o	cad485677c9e5f35
+128	214	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	de1a93afdf04a958

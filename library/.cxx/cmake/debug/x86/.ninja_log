@@ -1,0 +1,4 @@
+# ninja log v5
+19	489	0	CMakeFiles/native-lib.dir/src/main/cpp/src/ImageUtil.cpp.o	af64bdb915048853
+0	508	0	CMakeFiles/native-lib.dir/src/main/cpp/src/com_google_android_cameraview_NativeLibrary.cpp.o	c5a29414fee0f0ec
+508	798	0	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	e1bf60bd6d63f5d3

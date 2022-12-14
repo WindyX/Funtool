@@ -1,0 +1,1 @@
+ninja: error: '../../../../src/main/cpp/src/com_example_znx_funtool_NativeLibrary.cpp', needed by 'CMakeFiles/native-lib.dir/src/main/cpp/src/com_example_znx_funtool_NativeLibrary.cpp.o', missing and no known rule to make it

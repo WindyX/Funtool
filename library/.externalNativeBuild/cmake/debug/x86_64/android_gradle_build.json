@@ -1,0 +1,44 @@
+
+{
+	"buildFiles" : [ "D:/znx/Funtool-5.11/Funtool/library/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\Programming\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\znx\\Funtool-5.11\\Funtool\\library\\.externalNativeBuild\\cmake\\debug\\x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\Programming\\android-sdk-windows\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\znx\\Funtool-5.11\\Funtool\\library\\.externalNativeBuild\\cmake\\debug\\x86_64 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Programming/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Programming/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/znx/Funtool-5.11/Funtool/library/src/main/cpp/src/com_google_android_cameraview_NativeLibrary.cpp",
+					"workingDirectory" : "D:/znx/Funtool-5.11/Funtool/library/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Programming/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Programming/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/znx/Funtool-5.11/Funtool/library/src/main/cpp/src/ImageUtil.cpp",
+					"workingDirectory" : "D:/znx/Funtool-5.11/Funtool/library/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "D:/znx/Funtool-5.11/Funtool/library/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+			"toolchain" : "1755104585"
+		}
+	},
+	"toolchains" : 
+	{
+		"1755104585" : 
+		{
+			"cCompilerExecutable" : "D:/Programming/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Programming/android-sdk-windows/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

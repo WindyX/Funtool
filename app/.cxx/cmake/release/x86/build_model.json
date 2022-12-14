@@ -1,0 +1,74 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\znx\\Funtool-5.11\\Funtool",
+      "sdkFolder": "D:\\Programming\\android-sdk-windows",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\znx\\Funtool-5.11\\Funtool\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\znx\\Funtool-5.11\\Funtool\\app",
+      "makeFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "D:\\znx\\Funtool-5.11\\Funtool\\.cxx",
+      "cxxFolder": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx",
+      "ndkFolder": "D:\\Programming\\android-sdk-windows\\ndk-bundle",
+      "ndkVersion": "21.1.6352462",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "D:\\znx\\Funtool-5.11\\Funtool\\app\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "D:\\znx\\Funtool-5.11\\Funtool\\app\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cmake\\release\\x86",
+  "jsonFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cmake\\release\\x86\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cxx\\release\\x86",
+  "objFolder": "D:\\znx\\Funtool-5.11\\Funtool\\app\\build\\intermediates\\cmake\\release\\obj\\x86",
+  "buildCommandFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cmake\\release\\x86\\build_command.txt",
+  "buildOutputFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cmake\\release\\x86\\build_output.txt",
+  "modelOutputFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cmake\\release\\x86\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cxx\\release\\x86\\CMakeLists.txt",
+    "toolchainWrapperFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cxx\\release\\x86\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cxx\\release\\x86\\build_generation_state.json",
+    "cacheKeyFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cxx\\release\\x86\\compiler_cache_key.json",
+    "compilerCacheUseFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cxx\\release\\x86\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cxx\\release\\x86\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cxx\\release\\x86\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cmake\\release\\x86\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\znx\\Funtool-5.11\\Funtool\\app\\.cxx\\cmake\\release\\x86\\compile_commands.json"
+}
